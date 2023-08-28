@@ -1,0 +1,50 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:  rgba(19, 25, 33, 0.6);
+    padding: 50px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+.footer h2{
+    color: rgb(228, 159, 12);
+}
+
+.visitus a{
+    font-style: italic;
+    color: rgb(228, 159, 12);
+}
+
+.visitus a:hover{
+    color: black;
+}
+
+.address, .timings {
+    line-height: 24px;
+}
+
+.socialmedia-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.insta{
+    width: 40px;
+    height: 30px;
+    /* background-color: rgb(70, 70, 70); */
+    /* border-radius: 105px; */
+}
+.meta{
+    height: 30px;
+    width: 30px;
+}
+.x{
+    height:30px;
+    width: 30px;
+}

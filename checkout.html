@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/checkout-header.css" />
+    <link rel="stylesheet" href="styles/checkout.css" />
+  </head>
+  <body>
+    <div class="checkout-header">
+      <div class="header-content">
+        <div class="checkout-header-left-section">
+          <a href="index.html">
+            <span class="heading">The Good Indian</span>
+          </a>
+        </div>
+
+        <div class="checkout-header-middle-section">
+          Checkout (<a class="return-to-home-link" href="index.html">
+            <span class="qty js-cart-quantity">0</span> Items</a
+          >)
+        </div>
+
+        <div class="checkout-header-right-section">
+          <img src="images/icons/checkout-lock-icon.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="page-title">Review your order</div>
+      <div class="checkout-grid">
+        <div class="order-summary js-order-summary">
+          <!-- Uploaded using javascript -->
+        </div>
+
+        <div class="payment-summary">
+          <div class="payment-summary-title">Order Summary</div>
+
+          <div class="payment-summary-row">
+            <div class="total-items"></div>
+            <div class="payment-summary-money">&#8377;</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Delivery Charges:</div>
+            <div class="payment-summary-money-delivery-charge">&#8377;50</div>
+          </div>
+
+          <div class="payment-summary-row subtotal-row">
+            <div>Total before tax:</div>
+            <div class="payment-summary-money-beforeTax">&#8377;</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Estimated tax (10%):</div>
+            <div class="payment-summary-money-tax">&#8377;</div>
+          </div>
+
+          <div class="payment-summary-row total-row">
+            <div>Order total:</div>
+            <div class="payment-summary-money-total">&#8377;</div>
+          </div>
+
+          <button class="place-order-button button-primary">
+            Place your order
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="scripts/checkout.js"></script>
+    <script src="data/cart.js"></script>
+  </body>
+</html>
