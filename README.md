@@ -1,4 +1,4 @@
-# Restaurant Management Front-End Project
+# The Good Indian
 
 Visit The Website At :- https://krishaga.github.io/Restaurant-management/
 
