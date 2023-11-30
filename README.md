@@ -1,6 +1,6 @@
 # The Good Indian
 
-Visit the website at :- https://genius-aafaque.github.io/The-Good-Indian/
+Visit the website at :- https://md-aafaque.github.io/The-Good-Indian/
 
 Welcome to the The Good Indian! This repository contains the source code and assets for a web-based front-end application designed for restaurant management. The application is built using HTML, CSS, and JavaScript, providing an intuitive user interface for managing various aspects of a restaurant's operations.
 
